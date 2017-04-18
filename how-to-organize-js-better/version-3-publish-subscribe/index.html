@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="vendor/publish-subscribe.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/wish.js"></script>
+    <script src="js/wishes-view.js"></script>
+    <script src="js/wish-quick-submitter-view.js"></script>
+    <script src="js/wishes-collection.js"></script>
+</head>
+<body>
+    <section class="wish-list">
+        <h1>Add Wishes</h1>
+        <input name="name" type="text" placeholder="Name"  />
+        <input name="price" type="text" placeholder="Price" />
+        <input class="wish-add" type="button" value="Add" />
+
+        <h2>Wish List items</h2>
+        <ul class="wish-list-items"></ul>
+
+        <h2>Total price</h2>
+        <p><span class="wish-list-sum"></span></p>
+    </section>
+
+    <sidebar class="wish-quick-submitter">
+        <h1>Quick Wish Submitter</h1>
+        <input name="name" type="text" placeholder="Name"  />
+        <input name="price" type="text" placeholder="Price" />
+        <input class="wish-add" type="button" value="Add" />
+    </sidebar>
+</body>
+</html>
