@@ -1,15 +1,36 @@
+/**
+ * Represent a collection of Wish objects
+ *
+ * @constructor
+ */
 let WishesCollection = function() {
+    // Here we store the Wish objects
     this.wishes = [];
 };
 
-WishesCollection.prototype.add = function(Wish) {
-    this.wishes.push(Wish);
+/**
+ * Add a Wish
+ *
+ * @param {Wish} wish
+ */
+WishesCollection.prototype.add = function(wish) {
+    this.wishes.push(wish);
 };
 
+/**
+ * Get all Wishes
+ *
+ * @returns {Array}
+ */
 WishesCollection.prototype.getAll = function() {
     return this.wishes;
 };
 
+/**
+ * Get the sum of all Wishes
+ *
+ * @returns {number}
+ */
 WishesCollection.prototype.getSum = function() {
     let sum = 0;
     this.wishes.map( wish => sum += wish.price );
@@ -17,6 +38,11 @@ WishesCollection.prototype.getSum = function() {
     return sum;
 };
 
+/**
+ * Remove a Wish by id
+ *
+ * @param {Number} id
+ */
 WishesCollection.prototype.remove = function(id) {
     this.wishes = this.wishes.filter( wish => wish.id !== id );
 };
