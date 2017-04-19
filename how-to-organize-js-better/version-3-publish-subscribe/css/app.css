@@ -1,0 +1,27 @@
+* {
+    text-align: center;
+}
+input {
+    text-align: left
+}
+
+.wrapper {
+    width: 20em;
+    margin:0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.wish-list {
+    margin: 5em 0;
+}
+.wish-quick-submitter input[type="text"] {
+    margin: 0 1em 0 0;
+}

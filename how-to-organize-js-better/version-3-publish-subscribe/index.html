@@ -7,26 +7,36 @@
     <script src="js/wishes-view.js"></script>
     <script src="js/wish-quick-submitter-view.js"></script>
     <script src="js/wishes-collection.js"></script>
+
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="vendor/milligram.min.css">
+    <link rel="stylesheet" href="vendor/milligram.theme.blue.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 </head>
 <body>
+    <header class="wish-quick-submitter">
+        <h4>Quick Wish Submitter</h4>
+        <div class="wrapper flex">
+            <input name="name" type="text" placeholder="Name"  />
+            <input name="price" type="text" placeholder="Price" />
+            <input class="wish-add" type="button" value="Add" />
+        </div>
+    </header>
+
     <section class="wish-list">
         <h1>Add Wishes</h1>
-        <input name="name" type="text" placeholder="Name"  />
-        <input name="price" type="text" placeholder="Price" />
-        <input class="wish-add" type="button" value="Add" />
+        <div class="wrapper flex-column">
+            <input name="name" type="text" placeholder="Name"  />
+            <input name="price" type="text" placeholder="Price" />
+            <input class="wish-add" type="button" value="Add" />
+        </div>
+
+        <h2>Total price</h2>
+        <p><strong class="wish-list-sum"></strong></p>
 
         <h2>Wish List items</h2>
         <ul class="wish-list-items"></ul>
-
-        <h2>Total price</h2>
-        <p><span class="wish-list-sum"></span></p>
     </section>
-
-    <sidebar class="wish-quick-submitter">
-        <h1>Quick Wish Submitter</h1>
-        <input name="name" type="text" placeholder="Name"  />
-        <input name="price" type="text" placeholder="Price" />
-        <input class="wish-add" type="button" value="Add" />
-    </sidebar>
 </body>
 </html>

@@ -21,8 +21,8 @@ WishesView.prototype.initEvents = function () {
 WishesView.prototype.publishers = function() {
     // Handle wish addition
     $('.wish-list .wish-add').on('click', function() {
-        let name =  $('input[name="name"]').val();
-        let price =  parseFloat($('input[name="price"]').val());
+        let name =  $('.wish-list input[name="name"]').val();
+        let price =  parseFloat($('.wish-list input[name="price"]').val());
 
         // Publish a message with corresponding wish data, that a wish is being added
         $.Topic( "wish-add" ).publish( {name, price} );
