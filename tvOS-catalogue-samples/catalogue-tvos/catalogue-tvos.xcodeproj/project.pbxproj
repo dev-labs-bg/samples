@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF17EE981E8E44D8003907D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EE971E8E44D8003907D1 /* AppDelegate.swift */; };
+		FF17EE9A1E8E44D8003907D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EE991E8E44D8003907D1 /* ViewController.swift */; };
+		FF17EE9D1E8E44D8003907D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF17EE9B1E8E44D8003907D1 /* Main.storyboard */; };
+		FF17EE9F1E8E44D8003907D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF17EE9E1E8E44D8003907D1 /* Assets.xcassets */; };
+		FF17EEAA1E8E44D8003907D1 /* catalogue_tvosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EEA91E8E44D8003907D1 /* catalogue_tvosTests.swift */; };
+		FF17EEB51E8E44D8003907D1 /* catalogue_tvosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EEB41E8E44D8003907D1 /* catalogue_tvosUITests.swift */; };
+		FF17EEC31E8E4583003907D1 /* CatalogueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EEC21E8E4583003907D1 /* CatalogueTableViewCell.swift */; };
+		FF17EEC61E8E45A5003907D1 /* CatalogueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EEC51E8E45A5003907D1 /* CatalogueCollectionViewCell.swift */; };
+		FF17EEFF1E8E4F1E003907D1 /* EpisodeCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EEFE1E8E4F1E003907D1 /* EpisodeCoverView.swift */; };
+		FF17EF011E8E4FAB003907D1 /* EpisodeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EF001E8E4FAB003907D1 /* EpisodeDetailsViewController.swift */; };
+		FF17EF031E8E6C92003907D1 /* CustomAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF17EF021E8E6C92003907D1 /* CustomAnimationButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF17EEA61E8E44D8003907D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF17EE8C1E8E44D8003907D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF17EE931E8E44D8003907D1;
+			remoteInfo = "catalogue-tvos";
+		};
+		FF17EEB11E8E44D8003907D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF17EE8C1E8E44D8003907D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF17EE931E8E44D8003907D1;
+			remoteInfo = "catalogue-tvos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF17EE941E8E44D8003907D1 /* catalogue-tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "catalogue-tvos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF17EE971E8E44D8003907D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF17EE991E8E44D8003907D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF17EE9C1E8E44D8003907D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF17EE9E1E8E44D8003907D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF17EEA01E8E44D8003907D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF17EEA51E8E44D8003907D1 /* catalogue-tvosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "catalogue-tvosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF17EEA91E8E44D8003907D1 /* catalogue_tvosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalogue_tvosTests.swift; sourceTree = "<group>"; };
+		FF17EEAB1E8E44D8003907D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF17EEB01E8E44D8003907D1 /* catalogue-tvosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "catalogue-tvosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF17EEB41E8E44D8003907D1 /* catalogue_tvosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalogue_tvosUITests.swift; sourceTree = "<group>"; };
+		FF17EEB61E8E44D8003907D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF17EEC21E8E4583003907D1 /* CatalogueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueTableViewCell.swift; sourceTree = "<group>"; };
+		FF17EEC51E8E45A5003907D1 /* CatalogueCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogueCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF17EEFE1E8E4F1E003907D1 /* EpisodeCoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCoverView.swift; sourceTree = "<group>"; };
+		FF17EF001E8E4FAB003907D1 /* EpisodeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsViewController.swift; sourceTree = "<group>"; };
+		FF17EF021E8E6C92003907D1 /* CustomAnimationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF17EE911E8E44D8003907D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF17EEA21E8E44D8003907D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF17EEAD1E8E44D8003907D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF17EE8B1E8E44D8003907D1 = {
+			isa = PBXGroup;
+			children = (
+				FF17EE961E8E44D8003907D1 /* catalogue-tvos */,
+				FF17EEA81E8E44D8003907D1 /* catalogue-tvosTests */,
+				FF17EEB31E8E44D8003907D1 /* catalogue-tvosUITests */,
+				FF17EE951E8E44D8003907D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF17EE951E8E44D8003907D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF17EE941E8E44D8003907D1 /* catalogue-tvos.app */,
+				FF17EEA51E8E44D8003907D1 /* catalogue-tvosTests.xctest */,
+				FF17EEB01E8E44D8003907D1 /* catalogue-tvosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF17EE961E8E44D8003907D1 /* catalogue-tvos */ = {
+			isa = PBXGroup;
+			children = (
+				FF17EE971E8E44D8003907D1 /* AppDelegate.swift */,
+				FF17EE991E8E44D8003907D1 /* ViewController.swift */,
+				FF17EF001E8E4FAB003907D1 /* EpisodeDetailsViewController.swift */,
+				FF17EEC21E8E4583003907D1 /* CatalogueTableViewCell.swift */,
+				FF17EEC51E8E45A5003907D1 /* CatalogueCollectionViewCell.swift */,
+				FF17EEFE1E8E4F1E003907D1 /* EpisodeCoverView.swift */,
+				FF17EF021E8E6C92003907D1 /* CustomAnimationButton.swift */,
+				FF17EE9B1E8E44D8003907D1 /* Main.storyboard */,
+				FF17EE9E1E8E44D8003907D1 /* Assets.xcassets */,
+				FF17EEA01E8E44D8003907D1 /* Info.plist */,
+			);
+			path = "catalogue-tvos";
+			sourceTree = "<group>";
+		};
+		FF17EEA81E8E44D8003907D1 /* catalogue-tvosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF17EEA91E8E44D8003907D1 /* catalogue_tvosTests.swift */,
+				FF17EEAB1E8E44D8003907D1 /* Info.plist */,
+			);
+			path = "catalogue-tvosTests";
+			sourceTree = "<group>";
+		};
+		FF17EEB31E8E44D8003907D1 /* catalogue-tvosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF17EEB41E8E44D8003907D1 /* catalogue_tvosUITests.swift */,
+				FF17EEB61E8E44D8003907D1 /* Info.plist */,
+			);
+			path = "catalogue-tvosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF17EE931E8E44D8003907D1 /* catalogue-tvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF17EEB91E8E44D8003907D1 /* Build configuration list for PBXNativeTarget "catalogue-tvos" */;
+			buildPhases = (
+				FF17EE901E8E44D8003907D1 /* Sources */,
+				FF17EE911E8E44D8003907D1 /* Frameworks */,
+				FF17EE921E8E44D8003907D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "catalogue-tvos";
+			productName = "catalogue-tvos";
+			productReference = FF17EE941E8E44D8003907D1 /* catalogue-tvos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF17EEA41E8E44D8003907D1 /* catalogue-tvosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF17EEBC1E8E44D8003907D1 /* Build configuration list for PBXNativeTarget "catalogue-tvosTests" */;
+			buildPhases = (
+				FF17EEA11E8E44D8003907D1 /* Sources */,
+				FF17EEA21E8E44D8003907D1 /* Frameworks */,
+				FF17EEA31E8E44D8003907D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF17EEA71E8E44D8003907D1 /* PBXTargetDependency */,
+			);
+			name = "catalogue-tvosTests";
+			productName = "catalogue-tvosTests";
+			productReference = FF17EEA51E8E44D8003907D1 /* catalogue-tvosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF17EEAF1E8E44D8003907D1 /* catalogue-tvosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF17EEBF1E8E44D8003907D1 /* Build configuration list for PBXNativeTarget "catalogue-tvosUITests" */;
+			buildPhases = (
+				FF17EEAC1E8E44D8003907D1 /* Sources */,
+				FF17EEAD1E8E44D8003907D1 /* Frameworks */,
+				FF17EEAE1E8E44D8003907D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF17EEB21E8E44D8003907D1 /* PBXTargetDependency */,
+			);
+			name = "catalogue-tvosUITests";
+			productName = "catalogue-tvosUITests";
+			productReference = FF17EEB01E8E44D8003907D1 /* catalogue-tvosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF17EE8C1E8E44D8003907D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Devlabs;
+				TargetAttributes = {
+					FF17EE931E8E44D8003907D1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					FF17EEA41E8E44D8003907D1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF17EE931E8E44D8003907D1;
+					};
+					FF17EEAF1E8E44D8003907D1 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF17EE931E8E44D8003907D1;
+					};
+				};
+			};
+			buildConfigurationList = FF17EE8F1E8E44D8003907D1 /* Build configuration list for PBXProject "catalogue-tvos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF17EE8B1E8E44D8003907D1;
+			productRefGroup = FF17EE951E8E44D8003907D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF17EE931E8E44D8003907D1 /* catalogue-tvos */,
+				FF17EEA41E8E44D8003907D1 /* catalogue-tvosTests */,
+				FF17EEAF1E8E44D8003907D1 /* catalogue-tvosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF17EE921E8E44D8003907D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF17EE9F1E8E44D8003907D1 /* Assets.xcassets in Resources */,
+				FF17EE9D1E8E44D8003907D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF17EEA31E8E44D8003907D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF17EEAE1E8E44D8003907D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF17EE901E8E44D8003907D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF17EEC61E8E45A5003907D1 /* CatalogueCollectionViewCell.swift in Sources */,
+				FF17EF031E8E6C92003907D1 /* CustomAnimationButton.swift in Sources */,
+				FF17EEFF1E8E4F1E003907D1 /* EpisodeCoverView.swift in Sources */,
+				FF17EE9A1E8E44D8003907D1 /* ViewController.swift in Sources */,
+				FF17EE981E8E44D8003907D1 /* AppDelegate.swift in Sources */,
+				FF17EEC31E8E4583003907D1 /* CatalogueTableViewCell.swift in Sources */,
+				FF17EF011E8E4FAB003907D1 /* EpisodeDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF17EEA11E8E44D8003907D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF17EEAA1E8E44D8003907D1 /* catalogue_tvosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF17EEAC1E8E44D8003907D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF17EEB51E8E44D8003907D1 /* catalogue_tvosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF17EEA71E8E44D8003907D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF17EE931E8E44D8003907D1 /* catalogue-tvos */;
+			targetProxy = FF17EEA61E8E44D8003907D1 /* PBXContainerItemProxy */;
+		};
+		FF17EEB21E8E44D8003907D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF17EE931E8E44D8003907D1 /* catalogue-tvos */;
+			targetProxy = FF17EEB11E8E44D8003907D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF17EE9B1E8E44D8003907D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF17EE9C1E8E44D8003907D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF17EEB71E8E44D8003907D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		FF17EEB81E8E44D8003907D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF17EEBA1E8E44D8003907D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "catalogue-tvos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devlabs.catalogue-tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF17EEBB1E8E44D8003907D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "catalogue-tvos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devlabs.catalogue-tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF17EEBD1E8E44D8003907D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "catalogue-tvosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devlabs.catalogue-tvosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/catalogue-tvos.app/catalogue-tvos";
+			};
+			name = Debug;
+		};
+		FF17EEBE1E8E44D8003907D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "catalogue-tvosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devlabs.catalogue-tvosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/catalogue-tvos.app/catalogue-tvos";
+			};
+			name = Release;
+		};
+		FF17EEC01E8E44D8003907D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "catalogue-tvosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devlabs.catalogue-tvosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "catalogue-tvos";
+			};
+			name = Debug;
+		};
+		FF17EEC11E8E44D8003907D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "catalogue-tvosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devlabs.catalogue-tvosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "catalogue-tvos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF17EE8F1E8E44D8003907D1 /* Build configuration list for PBXProject "catalogue-tvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF17EEB71E8E44D8003907D1 /* Debug */,
+				FF17EEB81E8E44D8003907D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF17EEB91E8E44D8003907D1 /* Build configuration list for PBXNativeTarget "catalogue-tvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF17EEBA1E8E44D8003907D1 /* Debug */,
+				FF17EEBB1E8E44D8003907D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF17EEBC1E8E44D8003907D1 /* Build configuration list for PBXNativeTarget "catalogue-tvosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF17EEBD1E8E44D8003907D1 /* Debug */,
+				FF17EEBE1E8E44D8003907D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF17EEBF1E8E44D8003907D1 /* Build configuration list for PBXNativeTarget "catalogue-tvosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF17EEC01E8E44D8003907D1 /* Debug */,
+				FF17EEC11E8E44D8003907D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF17EE8C1E8E44D8003907D1 /* Project object */;
+}
