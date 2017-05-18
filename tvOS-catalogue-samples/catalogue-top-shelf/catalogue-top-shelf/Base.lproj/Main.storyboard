@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Tln-zk-cJZ">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="W7W-oy-haw">
+            <objects>
+                <viewController id="Tln-zk-cJZ" customClass="ViewController" customModule="catalogue_top_shelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ryM-a1-Cn3"/>
+                        <viewControllerLayoutGuide type="bottom" id="gk2-RC-2C2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GE2-pF-jvX">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <segue destination="SoN-wb-hqd" kind="show" identifier="ShowEpisodeDetails" id="rqc-jY-d0W">
+                            <nil key="action"/>
+                        </segue>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tfn-DI-bzW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-962" y="409"/>
+        </scene>
+        <!--Episode Details View Controller-->
+        <scene sceneID="lDv-0L-iQK">
+            <objects>
+                <viewController id="SoN-wb-hqd" customClass="EpisodeDetailsViewController" customModule="catalogue_tvos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Sg-lN-wye"/>
+                        <viewControllerLayoutGuide type="bottom" id="ISO-OH-qHj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pUr-A4-nI5">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Arrow S01E01" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsv-Q4-IwA">
+                                <rect key="frame" x="146" y="172" width="318" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edm-7j-c1W">
+                                <rect key="frame" x="146" y="258" width="961" height="381"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">After a violent shipwreck, billionaire playboy Oliver Queen was missing and presumed dead for 5 years before being discovered alive on a remote island in the Pacific. Back in Starling City, Oliver slowly reconnects with those closest to him, his devoted mother Moira, his beloved sister Thea, and his best friend Tommy Merlyn, but struggles with his ex-girlfriend Dinah Laurel Lance, who blames him for her sister's death. Oliver has brought back many new skills from his time on the island and despite the watchful eye of his new bodyguard John Diggle, Oliver manages to secretly create the persona of an unknown vigilante archer nicknamed the Hood by the police trying to catch him. Using the Hood, Oliver tries to right the wrongs of his family and fight the ills of society. As the Hood, Oliver will atone for the past sins of his family while he searches for the personal redemption he needs.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x3o-GX-wKC" customClass="EpisodeCoverView" customModule="catalogue_tvos" customModuleProvider="target">
+                                <rect key="frame" x="1209" y="259" width="564" height="362"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow-season-1" adjustsImageWhenAncestorFocused="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0yb-r4-gM0">
+                                        <rect key="frame" x="39" y="34" width="486" height="293"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRe-vu-Q6q" customClass="CustomAnimationButton" customModule="catalogue_tvos" customModuleProvider="target">
+                                <rect key="frame" x="146" y="704" width="300" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23529411759999999" green="0.36862745099999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Play HD 720p"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yoX-WX-Iie" customClass="CustomAnimationButton" customModule="catalogue_tvos" customModuleProvider="target">
+                                <rect key="frame" x="515" y="704" width="300" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.23529411759999999" green="0.36862745099999999" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="30"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Play HD 1080p"/>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="episodeCoverHolder" destination="x3o-GX-wKC" id="wMO-Se-4EK"/>
+                        <outlet property="episodeCoverImageView" destination="0yb-r4-gM0" id="jvA-76-XP8"/>
+                        <outletCollection property="playButtons" destination="iRe-vu-Q6q" collectionClass="NSMutableArray" id="rFR-Vo-Vga"/>
+                        <outletCollection property="playButtons" destination="yoX-WX-Iie" collectionClass="NSMutableArray" id="z6d-KJ-1ea"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sEd-E2-55s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1301" y="409"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow-season-1" width="1920" height="1080"/>
+    </resources>
+</document>
