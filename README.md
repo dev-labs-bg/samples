@@ -11,3 +11,4 @@ Code samples, used in our public articles, tutorials and courses.
 | [tvOS-catalogue-samples/catalogue-tvos](tvOS-catalogue-samples/catalogue-tvos/) | [Using Parallax images and Focus Guide with tvOS (Part 2/3)](https://notes.devlabs.bg/using-parallax-images-and-focus-guide-with-tvos-part-2-3-1dad65e6f23a)|
 | [tvOS-catalogue-samples/catalogue-top-shelfs](tvOS-catalogue-samples/catalogue-top-shelfs/) | [Using top shelf layouts with tvOS (Part 3/3)](https://notes.devlabs.bg/using-top-shelf-layouts-with-tvos-part-3-3-35e34ac061d1)|
 | [tvOS-catalogue-samples/catalogue-top-shelf-banner](tvOS-catalogue-samples/catalogue-top-shelf-banner/) | [Using top shelf layouts with tvOS (Part 3/3)](https://notes.devlabs.bg/using-top-shelf-layouts-with-tvos-part-3-3-35e34ac061d1)|
+| [react-tests](react-tests/) | Front-end testing workshop examples |
